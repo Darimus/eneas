@@ -1,0 +1,50 @@
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+
+    transform: translateX(-100%);
+    transition: transform 200ms linear;
+}
+
+.menu_open {
+    transform: translateX(0);
+}
+
+.btnMenu {
+    display: block;
+    background-repeat: no-repeat;
+    background-position: 15px center;
+    text-indent: -9999px;
+    padding: 20px 15px;
+}
+
+.btnMenu_open {
+    background-image: url(../../../dist/img/menu-hamburguer.svg);
+}
+
+.btnMenu_close {
+    background-color: #747c81;
+    background-image: url(../../../dist/img/menu-hamburguer-branco.svg);
+}
+
+.menu-item {
+    background-color: #fff;
+    border-bottom: 1px solid rgba(115, 115, 115, .5);
+    padding: 20px 15px;
+}
+
+.menu-item-action {
+    color: $color-blue;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}

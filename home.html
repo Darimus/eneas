@@ -4,32 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./dist/assets/css/main.min.css">
     <title>Psique</title>
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-light bg-light">
+        <!-- <nav class="navbar navbar-light bg-light">
             <div class="container-fluid">
-                <a href="#" width="30" height="24" class="d-inline-block align-text-top">
-                    <img src="./dist/img/logo-Psique.webp" alt="Logo do Site"> 
-                    Psique - Psicólogos Associados Ajudando você a encontrar o equilíbrio.
+                <a class="wrapper-logo" href="#">
+                    <img class="img-logo" src="./dist/img/logo.png" alt="Logo do Site"> 
+                    <h1 class="h1-psique">Psique - Psicólogos Associados</h1>
                 </a>
+                <h2 class="h2-psique">Ajudando você a encontrar o equilíbrio.</h2>
                 <ul>
-                    <li><a href="">Início</a></li>
-                    <li><a href="">Serviços</a></li>
-                    <li><a href="">Sobre</a></li>
-                    <li><a href="">Novidades</a></li>
-                    <li><a href="">Contato</a></li>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Novidades</a></li>
+                    <li><a href="#">Contato</a></li>
                 </ul>
             </div>
+        </nav> -->
+
+        <nav>
+            <a href="#menu" class="btnMenu btnMenu_open">Menu</a>
+
+            <ul id="menu" class="menu">
+                <li class="btnMenu btnMenu_close">Sair</li>
+                <li class="menu-item">
+                    <a href="" class="menu-item-action">Cursos</a>
+                </li>
+                <li class="menu-item">
+                    <a href="" class="menu-item-action">Comunidade</a>
+                </li>
+                <li class="menu-item">
+                    <a href="" class="menu-item-action">Minha Conta</a>
+                </li>
+            </ul>
         </nav>
     </header>
 
     <main>
         <div class="container-fluid">
             <blockquote>"Quem Olha para fora sonha, quem olha para dentro desperta"</blockquote>
-            <img src="./dist/img/office.jpg" alt="Foto do Escritorio">
+            <img class="office-banner" src="./dist/img/office.jpg" alt="Foto do Escritorio">
         </div>
     </main>
+    
+    <script src="./src/js/index.js"></script>
 </body>
 </html>
