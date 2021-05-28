@@ -1,0 +1,27 @@
+.container-service {
+    text-align: center;
+
+    .service-h2 {
+        color: $color-blue;
+        margin: 20px 0;
+    }
+
+    .service-card {
+        color: $color-blue;
+        border-bottom: 1px solid $color-gray;
+        padding: 0 12px;
+
+        .service-image {
+            width: 100%;
+            height: 444px;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+
+        .service-h4 {
+            font-weight: normal;
+            font-size: 15px;
+            border-bottom: 1px solid $color-blue;
+        }
+    }
+}

@@ -1,0 +1,17 @@
+.container-banner-h2 {
+    background-color: $color-gray;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+
+    .container-banner-h2-psique {
+        color: $color-blue;
+        text-align: center;
+        padding: 8px 12px;
+        font-weight: normal;
+    }
+
+    .container-banner-span {
+        font-size: 13px;
+    }
+}
