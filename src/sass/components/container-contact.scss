@@ -1,0 +1,14 @@
+.container-contact {
+    background: $color-blue;
+    text-align: center;
+    
+    .contact-h2 {
+        color: $color-gray;
+        padding: 20px;
+    }
+
+    .btn-contact {
+        color: $color-blue;
+        background-color: $color-gray;
+    }
+}
