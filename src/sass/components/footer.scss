@@ -1,0 +1,16 @@
+.container-location {
+    background-color: $color-gray;
+    color: $color-blue;
+
+    .contact-h2 {
+        padding: 20px 0;
+    }
+
+    .location-h3 {
+        margin-top: 20px;
+    }
+
+    .mapouter {
+        margin: 0 auto;
+    }
+}
