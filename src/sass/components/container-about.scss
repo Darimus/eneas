@@ -2,20 +2,22 @@
     background-color: $color-gray;
     color: $color-blue;
     
-    .about-h2 {
-        text-align: center;
-        padding: 20px 0;
-    }
-
-    .about-article {
-        .about-image {
-            width: 100%;
-            margin-bottom: 20px;
+    .container {
+        .about-h2 {
+            text-align: center;
+            padding: 20px 0;
         }
-    }
-
-    .about-article:nth-child(3) p {
-        margin-bottom: 0;
-        padding-bottom: 20px;
+    
+        .about-article {
+            .about-image {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+        }
+    
+        .about-article:nth-child(3) p {
+            margin-bottom: 0;
+            padding-bottom: 20px;
+        }
     }
 }
