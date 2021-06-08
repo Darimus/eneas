@@ -5,6 +5,18 @@
     top: 50%;
     left: 0;
 
+    .midia-nav {
+        display: none;
+    }
+
+    .midia-on {
+
+        .midia-nav {
+            display: block;
+        }
+    }
+    
+
     .midia-ul {
         position: relative;
         list-style-type: none;

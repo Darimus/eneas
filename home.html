@@ -58,23 +58,25 @@
     </section>
 
     <aside class="social-midia">
-      <nav>
-        <ul class="midia-ul">
-          <a href="https://www.youtube.com/channel/UCULhKFrHfgQ9ytT3GXL3pBA" target="_blank">
-            <li><img class="social-midia-img" src="./dist/img/youtube.svg" alt="Youtube"></li>
-          </a>
-        </ul>
-        <ul class="midia-ul">
-          <a href="https://www.facebook.com/eneas.sicchierolli.9" target="_blank">
-            <li><img class="social-midia-img" src="./dist/img/facebook.svg" alt="Facebook"></li>
-          </a>
-        </ul>
-        <ul class="midia-ul">
-          <a href="" target="_blank">
-            <li><img class="social-midia-img" src="./dist/img/youtube.svg" alt="Youtube"></li>
-          </a>
-        </ul>
-      </nav>
+      <button id="btn-midia"> >
+        <nav class="midia-nav">
+          <ul class="midia-ul">
+            <a href="https://www.youtube.com/channel/UCULhKFrHfgQ9ytT3GXL3pBA" target="_blank">
+              <li><img class="social-midia-img" src="./dist/img/youtube.svg" alt="Youtube"></li>
+            </a>
+          </ul>
+          <ul class="midia-ul">
+            <a href="https://www.facebook.com/eneas.sicchierolli.9" target="_blank">
+              <li><img class="social-midia-img" src="./dist/img/facebook.svg" alt="Facebook"></li>
+            </a>
+          </ul>
+          <ul class="midia-ul">
+            <a href="#" target="_blank">
+              <li><img class="social-midia-img" src="./dist/img/youtube.svg" alt="Youtube"></li>
+            </a>
+          </ul>
+        </nav>
+      </button>
     </aside>
 
     <section id='servico' class="container container-service">
@@ -109,7 +111,8 @@
 
     <section id="sobre" class="container-fluid container-about">
 
-      <div class="container"> <!-- Pensar sobre o uso do container aqui -->
+      <div class="container">
+        <!-- Pensar sobre o uso do container aqui -->
         <h2 class="about-h2">Sobre a Psique e seus associados</h2>
 
         <div class="about-article">
@@ -122,7 +125,7 @@
             que mudam suas vidas e os ajudam a lidar com os vários obstáculos da vida.
           </p>
         </div>
-  
+
         <div class="about-article">
           <img src="./dist/img/team.jpg" alt="Equipe de pessoas" class="about-image" loading="lazy">
           <h3 class="about-h3">Conheça melhor a Psique e seus associados</h3>
@@ -131,8 +134,8 @@
             a Psique, que acabou por se tornar uma atividade à qual me dedico em tempo integral.</p>
         </div>
       </div>
-      </section>
-      
+    </section>
+
     <div class="container-fluid container-contact">
       <h2 class="contact-h2">Podemos Ajudar!</h2>
       <a href="#contato"><button class="btn-contact">Entre em contato</button></a>
@@ -157,7 +160,8 @@
             <img src="./dist/img/ballon.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-md-block">
               <h5>Temos parcerias com:</h5>
-              <p>Sindicato dos Bancários do Estado de São Paulo, Securitários do Estado de São Paulo, Policia Militar do Estado de São Paulo.</p>
+              <p>Sindicato dos Bancários do Estado de São Paulo, Securitários do Estado de São Paulo, Policia Militar do
+                Estado de São Paulo.</p>
             </div>
           </div>
           <div class="carousel-item" data-bs-interval="2000">
@@ -273,13 +277,34 @@
 
         <div class="location-wrapper">
           <h3 class="location-h3">Endereço:</h3>
-          <p>Av. Emílio Ribas, 1056 - Gopouva <br> 
+          <p>Av. Emílio Ribas, 1056 - Gopouva <br>
             Guarulhos - SP, <br>
             CEP: 07020-280</p>
           <p>Localizado em: Dubai Offices Guarulhos</p>
         </div>
 
-        <div class="mapouter"><div class="gmap_canvas"><iframe width="250" height="200" id="gmap_canvas" src="https://maps.google.com/maps?q=Av.%20Em%C3%ADlio%20Ribas,%201056%20-%20Gopouva&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><style>.mapouter{position:relative;text-align:right;height:200px;width:250px;}</style><style>.gmap_canvas {overflow:hidden;background:none!important;height:200px;width:250px;}</style></div></div>
+        <div class="mapouter">
+          <div class="gmap_canvas"><iframe width="250" height="200" id="gmap_canvas"
+              src="https://maps.google.com/maps?q=Av.%20Em%C3%ADlio%20Ribas,%201056%20-%20Gopouva&t=&z=13&ie=UTF8&iwloc=&output=embed"
+              frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            <style>
+              .mapouter {
+                position: relative;
+                text-align: right;
+                height: 200px;
+                width: 250px;
+              }
+            </style>
+            <style>
+              .gmap_canvas {
+                overflow: hidden;
+                background: none !important;
+                height: 200px;
+                width: 250px;
+              }
+            </style>
+          </div>
+        </div>
       </div>
 
       <div class="whatsapp">
@@ -289,9 +314,11 @@
       </div>
 
       <p class="created-by">©2021 Psique.<br>
-        Criado por <a href="https://darimus.github.io/portfolio_v1.0/" target="_blank">Bruno Passos</a> <img src="./dist/img/heart-icon.png" alt="Icone de Coração"> </p>
+        Criado por <a href="https://darimus.github.io/portfolio_v1.0/" target="_blank">Bruno Passos</a> <img
+          src="./dist/img/heart-icon.png" alt="Icone de Coração"> </p>
     </div>
   </footer>
+  <script src="./src/js/index.js"></script>
   <script src="./src/js/bootstrap.js"></script>
 </body>
 
