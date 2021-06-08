@@ -1,0 +1,23 @@
+.social-midia {
+    width: 40px;
+    position: fixed;
+    z-index: 1;
+    top: 50%;
+    left: 0;
+
+    .midia-ul {
+        position: relative;
+        list-style-type: none;
+        float: left;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .social-midia-img {
+        width: 40px;
+        height: 40px;
+        left: 0;
+    }
+
+}
