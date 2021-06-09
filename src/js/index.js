@@ -1,4 +1,4 @@
-const btn_midia = document.getElementById('btn-midia');
+/* const btn_midia = document.getElementById('btn-midia');
 
 addEventListener('click', () => {
 
@@ -7,4 +7,4 @@ addEventListener('click', () => {
     } else { 
         btn_midia.classList.add('midia-on');
     } 
-});
+}); */
