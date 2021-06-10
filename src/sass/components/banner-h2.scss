@@ -15,3 +15,16 @@
         font-size: 13px;
     }
 }
+
+@media (min-width: 581px) {
+    .container-banner-h2-psique {
+        width: 463px;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 1030px) {
+    .container-banner-h2-psique {
+        width: 638px;
+    }
+}

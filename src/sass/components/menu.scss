@@ -23,3 +23,14 @@
 .navbar-light .navbar-nav .nav-link, .nav-link.active {
     color: $color-blue;
 }
+
+@media (min-width: 992px) {
+    .menu-desktop {
+        position: inherit;
+        justify-content: flex-end;
+    }
+
+    .navbar-nav .nav-link {
+        border: none;
+    }
+}

@@ -49,15 +49,11 @@
     }
 
     .checkbox-control {
-        text-indent: -99999px;
         position: absolute;
         cursor: pointer;
         top: 40%;
         left: 40px;
         background-image: url(../../../dist/img/seta-checkbox.png);
-        background-repeat: no-repeat;
-        background-position: 50%;
-        background-position-y: 50%;
         background-size: cover;
         width: 25px;
         height: 25px;

@@ -68,3 +68,16 @@
         font-style: italic;
     }
 }
+
+@media (min-width: 463px) {
+    .citacao {
+        width: 230px;
+        background-color: transparent;
+    }
+}
+
+@media (min-width: 634px) {
+    .office-banner {
+        height: 250px;
+    }
+}
