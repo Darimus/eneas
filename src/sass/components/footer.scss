@@ -19,3 +19,22 @@
         margin: 20px 0 5px 0;
     }
 }
+
+@media (min-width: 768px) {
+    .container-location {
+        .container-maps {
+            display: flex;
+            align-items: center;
+        }
+
+        .mapouter {
+            width: 100%;
+            height: 90%;
+            
+            .gmap_canvas {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}
