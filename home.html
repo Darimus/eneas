@@ -82,7 +82,7 @@
     <section id='servico' class="container container-service">
       <h2 class="service-h2">Ofereçemos estes serviços</h2>
 
-      <div class="container">
+      <div class="container row container-margin">
         <div class="service-card col-sm-12 col-md-6">
           <img class="service-image " src="./dist/img/thinking.jpg" loading="lazy" alt="Pessoa pensando">
           <h3 class="service-h3">Orientação Vocacional</h3>
@@ -141,100 +141,102 @@
       <a href="#contato"><button class="btn-contact">Entre em contato</button></a>
     </div>
 
-    <section id="novidades" class="container container-news container-carousel">
+    <section id="novidades" class="container-fluid container-news container-carousel">
 
-      <h2 class="carousel-h2">Radar Psicológico | Novidades</h2>
+      <div class="container">
+        <h2 class="carousel-h2">Radar Psicológico | Novidades</h2>
 
 
-      <div id="carouselExampleDark" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-            aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-            aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-            aria-label="Slide 3"></button>
+        <div id="carouselExampleDark" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img src="./dist/img/ballon.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-md-block">
+                <h5>Temos parcerias com:</h5>
+                <p>Sindicato dos Bancários do Estado de São Paulo, Securitários do Estado de São Paulo, Policia Militar do
+                  Estado de São Paulo.</p>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="./dist/img/talk.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-md-block">
+                <h5>Temos parcerias com:</h5>
+                <p>Escolas: Cerqueira Cesar, Friebolin</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./dist/img/call-online.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-md-block">
+                <h5>Third slide label</h5>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias ipsum, mollitia dolore officia voluptatibus amet laborum cupiditate nulla quaerat. Quia accusantium, expedita nesciunt non molestias vel repellat excepturi omnis nemo. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum quidem corporis, fugiat animi sunt voluptatum et, eaque, iusto corrupti adipisci consequuntur natus! Veritatis asperiores officia excepturi odit deserunt delectus dolore.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="10000">
-            <img src="./dist/img/ballon.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-md-block">
-              <h5>Temos parcerias com:</h5>
-              <p>Sindicato dos Bancários do Estado de São Paulo, Securitários do Estado de São Paulo, Policia Militar do
-                Estado de São Paulo.</p>
+
+        <h2 class="carousel-h2">Promoções e Parcerias</h2>
+
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./dist/img/ballon.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-md-block">
+                <h5>First slide label</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./dist/img/call-online.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-md-block">
+                <h5>Second slide label</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./dist/img/talk.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-md-block">
+                <h5>Third slide label</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+              </div>
             </div>
           </div>
-          <div class="carousel-item" data-bs-interval="2000">
-            <img src="./dist/img/talk.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-md-block">
-              <h5>Temos parcerias com:</h5>
-              <p>Escolas: Cerqueira Cesar, Friebolin</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="./dist/img/call-online.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-md-block">
-              <h5>Third slide label</h5>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias ipsum, mollitia dolore officia voluptatibus amet laborum cupiditate nulla quaerat. Quia accusantium, expedita nesciunt non molestias vel repellat excepturi omnis nemo. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum quidem corporis, fugiat animi sunt voluptatum et, eaque, iusto corrupti adipisci consequuntur natus! Veritatis asperiores officia excepturi odit deserunt delectus dolore.</p>
-            </div>
-          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+
       </div>
-
-      <h2 class="carousel-h2">Promoções e Parcerias</h2>
-
-      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-            aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-            aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-            aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="./dist/img/ballon.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-md-block">
-              <h5>First slide label</h5>
-              <p>Some representative placeholder content for the first slide.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="./dist/img/call-online.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-md-block">
-              <h5>Second slide label</h5>
-              <p>Some representative placeholder content for the first slide.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="./dist/img/talk.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-md-block">
-              <h5>Third slide label</h5>
-              <p>Some representative placeholder content for the first slide.</p>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-          data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-          data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-
     </section>
 
     <section id="contato" class="container-fluid container-form">
@@ -267,8 +269,8 @@
     </section>
   </main>
 
-  <footer>
-    <div class="container-fluid container-location">
+  <footer class="container-fluid container-location">
+    <div class="container">
       <div class="location-contact">
         <h2 class="contact-h2">Contato | Localização</h2>
 
