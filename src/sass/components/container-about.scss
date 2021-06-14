@@ -23,14 +23,8 @@
 }
 
 @media (min-width: 768px) {
-    .container-about .container .about-article .about-image {
-        width: 350px;
-        float: right;
-        margin: 0;
-    }
-
-    .container-about .container .about-article:nth-child(3) .about-image {
-        float: left;
-        margin-right: 10px;
+    .container-about .container > :nth-child(2) {
+            display: flex;
+            flex-direction: row-reverse;
     }
 }
