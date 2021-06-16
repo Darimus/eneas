@@ -3,6 +3,7 @@
 }
 
 .navbar-light .navbar-brand {
+    font-size: 18px;
     color: $color-blue;
 }
 
@@ -10,7 +11,7 @@
     position: absolute;
     width: 100%;
     background-color: $color-gray;
-    top: 56px;
+    top: 75px;
     left: 0;
     z-index: 2;
 }
@@ -24,6 +25,11 @@
     color: $color-blue;
 }
 
+.sub-title-menu, .title-menu-complement{
+    color: $color-blue;
+    display: none;
+}
+
 @media (min-width: 992px) {
     .menu-desktop {
         position: inherit;
@@ -32,5 +38,18 @@
 
     .navbar-nav .nav-link {
         border: none;
+        font-size: 13px;
+    }
+
+    .sub-title-menu {
+        font-size: 13px;
+        position: absolute;
+        display: flex;
+        bottom: 10px;
+        left: 67px;
+    }
+
+    .title-menu-complement {
+        display: inline-block;
     }
 }
