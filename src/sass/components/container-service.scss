@@ -37,7 +37,11 @@
     .container-service {
 
         .container-margin .service-card:nth-child(2) .service-h4 {
-            margin-top: 32px;
+            margin-top: 26px;
+        }
+
+        .container-margin .service-card:nth-child(1) .service-h4 {
+            margin-top: 26px;
         }
 
         .service-h3 {
