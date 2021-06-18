@@ -10,7 +10,6 @@
         position: initial;
         color: $color-blue;
         background-color: $color-gray;
-        border: 1px solid darken($color-gray, 10%);
         border-top: 0;
 
         p {
@@ -26,6 +25,12 @@
     .carousel {
         -webkit-box-shadow: 0px 11px 20px 3px rgba(58,58,58,0.21); 
         box-shadow: 0px 11px 20px 3px rgba(58,58,58,0.21);
+        
+        background-color: $color-gray;
+    }
+
+    .carousel-spacing {
+        margin-top: 30px;
     }
 }
 
@@ -41,8 +46,20 @@
             margin-right: 0;
         }
 
-        .carousel-padding {
+        .carousel-spacing {
             padding: 0;
             margin: 0 auto;
+    }
+}
+
+@media (min-width: 992px) {
+    .container-carousel {
+        .carousel-width {
+            width: 350px;
+        }
+
+        .carousel-h2 {
+            font-size: 23px;
+        }
     }
 }
