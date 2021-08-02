@@ -1,1 +1,0 @@
-Tirar o max-width do img service.
