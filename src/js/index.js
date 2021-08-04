@@ -4,28 +4,26 @@ const app = express();
 
 const port = 5500;
 
-const user = 'bruno.frontend0304@gmail.com';
+const user = '';
 const pass = '' // Usar variavel de ambiente
 
-const formEmail = document.getElementById("form-email").value;
-const formName = document.getElementById("form-name").value;
-const textArea = document.getElementById("form-text-area").value;
+app.use(express.urlencoded({ extended: false }));
 
-app.get('/', (request, response) => response.send('Hello World!!'));
-
-app.get('/send', (resquest, response) => {
+app.post('/send', (request, response) => {
     const transporter = nodemailer.createTransport({
         host: "smtp.gmail.com",
         port: "465",
         auth: {user, pass}
     })
 
+    const { namePaciente, emailPaciente, sobrePaciente } = request.body;
+
     transporter.sendMail({
         from: user,
         to: user,
-        replyTo: 'bruno.passos@outlook.com.br',
-        subject: 'Olá, seja bem vindo',
-        text: 'Olá, muito obrigado por funcionar... ou não'
+        replyTo: emailPaciente,
+        subject: `Olá ${namePaciente}, seja bem vindo`,
+        text: sobrePaciente
     }).then(info => {
         response.json('Email enviado').send(info)
     }).catch(error => {

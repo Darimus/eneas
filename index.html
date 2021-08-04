@@ -254,23 +254,25 @@
         <h2 class="form-h2">Me mande uma mensagem</h2>
 
         <div class="container">
-        <form action="" class="form-field">
+        <form action="http://localhost:5500/send" method="POST" class="form-field">
           <fieldset>
             <div id="form-name" class="col-12 form-div">
-              <input class="col-12 form-padding" type="text" name="name" id="name" placeholder="Seu nome">
+              <input class="col-12 form-padding" type="text" name="namePaciente" id="name" placeholder="Seu nome">
             </div>
 
             <div id="form-email" class="col-12 form-div">
-              <input class="col-12 form-padding" type="email" name="email" id="email" placeholder="Email">
+              <input class="col-12 form-padding" type="email" name="emailPaciente" id="email" placeholder="Email">
             </div>
 
             <div class="col-12 form-div">
-              <textarea id="form-text-area" class="col-12 form-padding" name="sobre-paciente" id="sobre-paciente" cols="30" rows="10"
+              <textarea id="form-text-area" class="col-12 form-padding" name="sobrePaciente" id="sobre-paciente" cols="30" rows="10"
                 placeholder="Conte-nos um pouco sobre você e no que podemos ajudar."></textarea>
             </div>
+          
+            <button class="btn-form">Enviar</button>
+          
           </fieldset>
 
-          <button class="btn-form">Enviar</button>
         </form>
       </div>
     </section>
